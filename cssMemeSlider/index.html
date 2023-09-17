@@ -3,9 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cssMemeSlider</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="slider">
+            <div class="slider__content">
+                <div class="slider__gallery">
+                    <img src="images/img2.jpg">
+                    <img src="images/img3.jpg">
+                    <img src="images/img4.jpg">
+                </div>
+                <div class="slider__texts">
+                    <p class="slider__text" data-text="1">First impression from task</p>
+                    <p class="slider__text" data-text="2">Pain of the realizing the purpose</p>
+                    <p class="slider__text" data-text="3">Finally understood the logic of the css slider work</p>
+                </div>
+            </div>
+            <div class="slider__control">
+                <input type="radio" name="slider-pagination" value="1" class="input" checked>
+                <input type="radio" name="slider-pagination" value="2" class="input">
+                <input type="radio" name="slider-pagination" value="3" class="input">
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container">
+        <div class="slider">
+            <div class="slider__gallery">
+              <img class="slider__img" src="images/img1.jpg" alt="meme1">
+              <img class="slider__img" src="images/img2.jpg" alt="meme2">
+              <img class="slider__img" src="images/img3.jpg" alt="meme3">
+              <img class="slider__img" src="images/img4.jpg" alt="meme4">
+            </div>
+            <div class="slider__content">
+              <div class="slider__group">
+                <div class="slider__texts">
+                  <p class="slider__text" data-text="1">Thinking about how to do with css slider</p>
+                  <p class="slider__text" data-text="2">First impression from task</p>
+                  <p class="slider__text" data-text="3">Pain of the realizing the purpose</p>
+                  <p class="slider__text" data-text="4">Finally understood the logic of the css slider work</p>
+                </div>
+              </div>
+        
+              <div class="slider__controls">
+                <label class="slider__label">
+                  <span class="slider__checkbox">
+                    <span class="slider__checkbox-circle"></span>
+                  </span>
+                  <input class="slider__input" type="radio" name="memes" checked data-id="1">
+                </label>
+                <label class="slider__label">
+                  <span class="slider__checkbox">
+                    <span class="slider__checkbox-circle"></span>
+                  </span>
+                  <input class="slider__input" type="radio" name="memes" data-id="2">
+                </label>
+                <label class="slider__label">
+                  <span class="slider__checkbox">
+                    <span class="slider__checkbox-circle"></span>
+                  </span>
+                  <input class="slider__input" type="radio" name="memes" data-id="3">
+                </label>
+                <label class="slider__label">
+                  <span class="slider__checkbox">
+                    <span class="slider__checkbox-circle"></span>
+                  </span>
+                  <input class="slider__input" type="radio" name="memes" data-id="4">
+                </label>
+              </div>
+            </div>
+          </div>
+    </div> -->
 </body>
 </html>
